@@ -6,8 +6,9 @@ function Hobbies(props) {
           display: "flex",
           justifyContent: "space-around",
           alignItems: "center",
-          height: "70vh",
+          minHeight: "500px",
           flexWrap: "wrap",
+          marginBottom: "8em"
         }}
       >
         <div
