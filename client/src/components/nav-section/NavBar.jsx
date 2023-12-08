@@ -8,10 +8,12 @@ import {
   NavItem,
   NavLink,
 } from "reactstrap";
+import { useNavigate } from "react-router-dom"
 
 function NavBar(props) {
   const [collapsed, setCollapsed] = useState(true);
   const toggleNavbar = () => setCollapsed(!collapsed);
+  const navigate = useNavigate()
   return (
     <>
       <Navbar
@@ -24,13 +26,9 @@ function NavBar(props) {
           borderBottom: "2px solid var(--backgroundColor)",
         }}
       >
-        <NavbarBrand
-          href="/"
-          className="me-auto"
-          style={{ color: "var(--fontColor)" }}
-        >
-          Home
-        </NavbarBrand>
+        <button onClick={() => {navigate("/")}} style={{ color: "var(--fontColor)", background: "transparent", border: "none", padding: "8px 0px", fontSize: "24px" }}>
+                Home
+              </button>
         <NavbarToggler
           onClick={toggleNavbar}
           className="me-2"
@@ -39,27 +37,24 @@ function NavBar(props) {
         <Collapse isOpen={!collapsed} navbar>
           <Nav navbar>
             <NavItem>
-              <NavLink href="/about-me" style={{ color: "var(--fontColor)" }}>
+              <button onClick={() => {navigate("/about-me")}} style={{ color: "var(--fontColor)", background: "transparent", border: "none", padding: "8px 0px" }}>
                 About Me
-              </NavLink>
+              </button>
             </NavItem>
             <NavItem>
-              <NavLink href="/projects" style={{ color: "var(--fontColor)" }}>
+            <button onClick={() => {navigate("/projects")}} style={{ color: "var(--fontColor)", background: "transparent", border: "none", padding: "8px 0px" }}>
                 Projects
-              </NavLink>
+              </button>
             </NavItem>
             <NavItem>
-              <NavLink href="/hobbies" style={{ color: "var(--fontColor)" }}>
+              <button onClick={() => {navigate("/hobbies")}} style={{ color: "var(--fontColor)", background: "transparent", border: "none", padding: "8px 0px" }}>
                 Hobbies and Interests
-              </NavLink>
+              </button>
             </NavItem>
             <NavItem>
-              <NavLink
-                href="/work-history"
-                style={{ color: "var(--fontColor)" }}
-              >
+            <button onClick={() => {navigate("/work-history")}} style={{ color: "var(--fontColor)", background: "transparent", border: "none", padding: "8px 0px" }}>
                 Work History
-              </NavLink>
+              </button>
             </NavItem>
           </Nav>
         </Collapse>
