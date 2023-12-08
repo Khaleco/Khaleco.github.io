@@ -37,22 +37,22 @@ function NavBar(props) {
         <Collapse isOpen={!collapsed} navbar>
           <Nav navbar>
             <NavItem>
-              <button onClick={() => {navigate("/about-me")}} style={{ color: "var(--fontColor)", background: "transparent", border: "none", padding: "8px 0px" }}>
+              <button onClick={() => {navigate("/about-me"); toggleNavbar()}} style={{ color: "var(--fontColor)", background: "transparent", border: "none", padding: "8px 0px" }}>
                 About Me
               </button>
             </NavItem>
             <NavItem>
-            <button onClick={() => {navigate("/projects")}} style={{ color: "var(--fontColor)", background: "transparent", border: "none", padding: "8px 0px" }}>
+            <button onClick={() => {navigate("/projects"); toggleNavbar()}} style={{ color: "var(--fontColor)", background: "transparent", border: "none", padding: "8px 0px" }}>
                 Projects
               </button>
             </NavItem>
             <NavItem>
-              <button onClick={() => {navigate("/hobbies")}} style={{ color: "var(--fontColor)", background: "transparent", border: "none", padding: "8px 0px" }}>
+              <button onClick={() => {navigate("/hobbies"); toggleNavbar()}} style={{ color: "var(--fontColor)", background: "transparent", border: "none", padding: "8px 0px" }}>
                 Hobbies and Interests
               </button>
             </NavItem>
             <NavItem>
-            <button onClick={() => {navigate("/work-history")}} style={{ color: "var(--fontColor)", background: "transparent", border: "none", padding: "8px 0px" }}>
+            <button onClick={() => {navigate("/work-history"); toggleNavbar()}} style={{ color: "var(--fontColor)", background: "transparent", border: "none", padding: "8px 0px" }}>
                 Work History
               </button>
             </NavItem>
