@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.81290ab4.css",
+    "main.js": "/static/js/main.554c9474.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/IMG_20231005_131539254_BURST000_COVER.jpg": "/static/media/IMG_20231005_131539254_BURST000_COVER.bd9a5a01ca94259d5a04.jpg",
+    "static/media/IMG_20181019_161204266_HDR.jpg": "/static/media/IMG_20181019_161204266_HDR.2a2527ebc631984d6006.jpg",
+    "static/media/Zorkington.png": "/static/media/Zorkington.b16c1c5c97fa10348ba2.png",
+    "static/media/Guess-the-number.png": "/static/media/Guess-the-number.6e08557ed85097be7f2c.png",
+    "static/media/Jeopardy.png": "/static/media/Jeopardy.10fb2be94e742316ac58.png",
+    "static/media/Server-Blog.png": "/static/media/Server-Blog.ee1c44cdce8aa0bdbd92.png",
+    "static/media/React-Chat.png": "/static/media/React-Chat.904918dd1abe93b1bcc9.png",
+    "index.html": "/index.html",
+    "main.81290ab4.css.map": "/static/css/main.81290ab4.css.map",
+    "main.554c9474.js.map": "/static/js/main.554c9474.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.81290ab4.css",
+    "static/js/main.554c9474.js"
+  ]
+}
