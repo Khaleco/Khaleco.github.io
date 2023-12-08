@@ -38,9 +38,9 @@ function AboutMe(props) {
             video games are puzzle / tactical games, a few examples are:
             'Portal', 'Bauldur's Gate III', 'Slay the Spire', and 'Stellaris'. I
             also enjoy playing board / card games, the ones I play the most are:
-            'Magic the Gather', 'Dungeons & Dragon', and 'Warhammer 40K'. I
+            'Magic the Gathering', 'Dungeons & Dragons', and 'Warhammer 40K'. I
             enjoy these games for their statigical and complex gameplay. Fun
-            Fact: 'Magic the Gather' is Turing complete.
+            Fact: 'Magic the Gathering' is Turing complete.
           </p>
           <h3
             style={{
