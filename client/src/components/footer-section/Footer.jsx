@@ -19,7 +19,7 @@ function Footer(props) {
           Contact Info: khalecoffran@gmail.com +1-802-369-5730{" "}
         </p>
         <h5 style={{ color: "var(--fontColor)" }}>
-          UnPublished Work © 2023 Khale Coffran
+          © 2023 by Khale Coffran
         </h5>
         <div
           style={{
